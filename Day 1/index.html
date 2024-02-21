@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Link CSS and Script Files</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>How to Link the Style Sheet and Script File in HTML</h1>
+    </header>
+    <main>
+        <section id="cssSection">
+            <h2>Linking CSS File:</h2>
+            <ol>
+                <li>To link a CSS file to an HTML document, use the <code>&lt;link&gt;</code> tag inside the <code>&lt;head&gt;</code> section.</li>
+                <li>Set the <code>rel</code> attribute to "stylesheet" to indicate that this link is for a stylesheet.</li>
+                <li>Use the <code>href</code> attribute to specify the path to the CSS file. In this case, it's "style.css".</li>
+                <li>This allows the HTML document to access and apply the styles defined in the linked CSS file.</li>
+            </ol>
+        </section>
+        <section id="scriptSection">
+            <h2>Linking Script File:</h2>
+            <ol>
+                <li>To link a JavaScript file to an HTML document, use the <code>&lt;script&gt;</code> tag.</li>
+                <li>Place the <code>&lt;script&gt;</code> tag typically before the closing <code>&lt;/body&gt;</code> tag to ensure that the JavaScript code is loaded after the HTML content.</li>
+                <li>Use the <code>src</code> attribute to specify the path to the JavaScript file. In this case, it's "script.js".</li>
+                <li>This allows the HTML document to access and execute the JavaScript code defined in the linked script file.</li>
+            </ol>
+        </section>
+        <img id="sample_image" src="link.png" alt="linking-image-example">
+    </main>
+    <footer>
+        <p>&copy; 2024 How to Link CSS and Script Files</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Linking CSS File:
+1.To link a CSS file to an HTML document, use the <link> tag inside the <head> section.
+2.Set the rel attribute to "stylesheet" to indicate that this link is for a stylesheet.
+3.Use the href attribute to specify the path to the CSS file. In this case, it's "style.css".
+4.This allows the HTML document to access and apply the styles defined in the linked CSS file.
+
+Linking Script File:
+1.To link a JavaScript file to an HTML document, use the <script> tag.
+2.Place the <script> tag typically before the closing </body> tag to ensure that the JavaScript code is loaded after the HTML content.
+3.Use the src attribute to specify the path to the JavaScript file. In this case, it's "script.js".
+4.This allows the HTML document to access and execute the JavaScript code defined in the linked script file.
