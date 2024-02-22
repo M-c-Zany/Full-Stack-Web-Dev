@@ -1,0 +1,31 @@
+
+1. Self-closing tags:
+   Self-closing tags are HTML tags that do not require a closing tag because they don't encapsulate any content. They are used to insert standalone elements into a document, such as images or line breaks.
+
+   Example:
+   html
+   <img src="example.jpg" alt="Example Image">
+   <br>
+   <input type="text" name="username" placeholder="Username">
+   
+
+2. Pair tags:
+   Pair tags, also known as container tags or double tags, come in pairs—a start tag and an end tag—and they encapsulate content between them. They are used to define elements that contain content, such as paragraphs, headings, lists, etc.
+
+   Example:
+   html
+   <p>This is a paragraph.</p>
+   <h1>This is a heading</h1>
+   <ul>
+       <li>Item 1</li>
+       <li>Item 2</li>
+   </ul>
+   
+
+In the example above:
+`<p>` is the start tag for a paragraph, and `</p>` is the end tag.
+`<h1>` is the start tag for a level 1 heading, and `</h1>` is the end tag.
+`<ul>` is the start tag for an unordered list, and `</ul>` is the end tag.
+`<li>` is the start tag for each list item, and `</li>` is the end tag for each list item.
+
+Pair tags must be closed in the correct order, and all content must be contained within the opening and closing tags. Otherwise, the HTML markup may not render as expected.
